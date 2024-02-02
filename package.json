@@ -1,0 +1,38 @@
+{
+  "name": "stinsoft-lab",
+  "version": "1.0.0",
+  "description": "StinSoft Technologies",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "server": "nodemon server"
+  },
+  "author": "Vinoth Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1540.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.10.0",
+    "gravator": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "nodemailer": "^6.6.2",
+    "onedrive-api": "^1.0.1",
+    "request": "^2.88.2",
+    "slugify": "^1.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
