@@ -32,8 +32,9 @@ app.use(fileupload());
 app.use(express.static(path.join(__dirname, 'public')));
 // app.use('/public', express.static('public'));
 
-//Define Routes
-// app.use('/api/', require('./routes/api/home'))
+//Routes
+
+app.use('/api/auth', require('./routes/api/auth'))
 
 app.use(errorHandler);
 
