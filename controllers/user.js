@@ -2,7 +2,7 @@ const asyncHandler = require("../middleware/async");
 const User = require("../models/User");
 const ErrorResponse = require("../utils/errorResponse");
 const bcrypt = require("bcryptjs");
-const Temple = require("../models/Temple");
+
 
 exports.allUsers = asyncHandler(async (req, res, next) => {
 
